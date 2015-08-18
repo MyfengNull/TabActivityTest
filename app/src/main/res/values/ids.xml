@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView1" type="id">iv1</item>
+    <item name="tabsText" type="id">tt</item>
+    <item name="tabhost" type="id">th</item>
+    <item name="tx1" type="id">tx1</item>
+    <item name="tx2" type="id">tx1</item>
+</resources>
