@@ -10,4 +10,5 @@
     <string name="hints_summary">hints!</string>
     <string name="three_title">three</string>
     <string name="three_summary">3</string>
+    <string name="pref_color">color</string>
 </resources>

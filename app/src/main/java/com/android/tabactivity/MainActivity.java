@@ -1,5 +1,7 @@
 package com.android.tabactivity;
 
+import com.android.tabactivity.IconPreferenceScreen;
+
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,6 +27,8 @@ public class MainActivity extends TabActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         //Resources res = getResources(); // Resource object to get Drawables
         tabHost = getTabHost(); // The activity TabHost

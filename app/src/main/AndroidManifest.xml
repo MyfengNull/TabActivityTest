@@ -19,6 +19,9 @@
         <activity android:name=".OneActivity"/>
         <activity android:name=".TwoActivity"/>
         <activity android:name=".ThreeActivity"/>
+        <activity android:name=".InsideActivity"/>
+        <activity android:name="PreferencesActivity2"></activity>
+        <activity android:name="PreferencesActivity3"></activity>
     </application>
 
 </manifest>
