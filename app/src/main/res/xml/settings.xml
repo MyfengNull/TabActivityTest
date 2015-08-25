@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="Settings">
-    <com.android.tabactivity.IconPreferenceScreen android:title="Notifications" android:key="Notifications" />
-    <com.android.tabactivity.IconPreferenceScreen android:title="Application" android:key="Application" />
-    <CheckBoxPreference android:key="CheckBox" android:title="CheckBox"></CheckBoxPreference>
+    <com.android.tabactivity.IconPreferenceScreen android:title="First" android:key="First" />
+    <CheckBoxPreference
+        android:key="cb"
+        android:title="checkbox"
+        android:summary="checkbox!"
+        android:defaultValue="true" />
 </PreferenceScreen>

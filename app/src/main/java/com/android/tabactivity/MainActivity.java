@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.widget.TabHost;
 
+
 public class MainActivity extends TabActivity {
     /** Called when the activity is first created. */
 
@@ -67,12 +68,17 @@ public class MainActivity extends TabActivity {
         tabHost.setOnTouchListener(onSwipeTouchListener);
     }
 
+    //OneActivity oa=new OneActivity();
+
+
     public void initTabs() {
         intent = new Intent().setClass(this, OneActivity.class);
+
         spec = tabHost.newTabSpec("one")
                 .setIndicator("ONE")
                 .setContent(intent);
         tabHost.addTab(spec);
+        ///tabHost.
 
         // Do the same for the other tabs
 

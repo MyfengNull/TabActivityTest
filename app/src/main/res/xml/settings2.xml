@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBoxPreference
-        android:key="hints"
-        android:title="@string/hints_title"
-        android:summary="@string/hints_summary"
-        android:defaultValue="true" />
+    <Preference android:title="About" android:key="myKey"></Preference>
+    <com.android.tabactivity.IconPreferenceScreen android:title="Second" android:key="Second" />
 </PreferenceScreen>

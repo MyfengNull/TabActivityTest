@@ -20,8 +20,22 @@
         <activity android:name=".TwoActivity"/>
         <activity android:name=".ThreeActivity"/>
         <activity android:name=".InsideActivity"/>
-        <activity android:name="PreferencesActivity2"></activity>
-        <activity android:name="PreferencesActivity3"></activity>
+        <activity
+            android:name="PreferencesActivity2">
+            android:parentActivityName="com.android.tabactivity.MainActivity" >
+            <intent-filter >
+                <action android:name="com.android.tabactivity.PreferencesActivity2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="PreferencesActivity3">
+            android:parentActivityName="com.android.tabactivity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.tabactivity.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>
